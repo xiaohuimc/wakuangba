@@ -1,2 +1,1 @@
-# 首页
-"title" : "Gitbook Use"
+# 前言
