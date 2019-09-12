@@ -5,7 +5,7 @@
   * [什么是门罗币？](XMR/ABOUT.md)
   * [如何生成门罗币钱包？](XMR/Wallet.md)
   * [门罗币(XMR)挖矿教程]()
-  * 如何交易门罗币?
+  * [如何交易门罗币?](XMR)
      * [如何注册账户?](XMR/REGISTER.md)
      * [如何充币?](XMR/RECHARGE.md)
      * [币币交易操作流程(网页版/手机APP)](XMR/TRANSACTION.md)

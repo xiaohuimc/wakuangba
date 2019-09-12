@@ -1,7 +1,8 @@
 如何注册账户？
+
 点击（[https://gateio.co](https://gateio.co/ref/261251)）打开平台首页，有两种方式进入注册页面：
 
-1、首页右上方选择 “注册” 或 新用户注册
+1、首页右上方选择 “注册” 或 新用户注册。
 
 ![](https://gateimg.opencoding.com/zzz1.png)
 

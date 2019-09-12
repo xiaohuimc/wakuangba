@@ -1,4 +1,5 @@
 如何充币？
+
 1、充值地址打开方式：
 
 （1）登录gate.io账户 — 访问菜单栏“币币交易” — 选择充值币种-点击充值按钮。
@@ -9,11 +10,11 @@
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.02.jpg)
 
-（3）登录账户，在首页，个人信息那里有“充值”
+（3）登录账户，在首页，个人信息那里有“充值”。
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.03.jpg)
 
-2、点击找到要充值的币种
+2、点击找到要充值的币种。
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.04.jpg)
 
@@ -21,11 +22,11 @@
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.05.jpg)
 
-4、打开某平台“我的资产”页面，找到相应币种的提现按钮（以平台之间转币为例）：
+4、打开某平台“我的资产”页面，找到相应币种的提现按钮（以平台之间转币为例）。
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.06.jpg)
 
-5、点击提币按钮后，会出现提币画面，点击添加地址
+5、点击提币按钮后，会出现提币画面，点击添加地址。
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.07.jpg)
 
