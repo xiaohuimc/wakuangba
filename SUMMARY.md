@@ -1,11 +1,9 @@
 # Table of contents
 
 * [前言](README.md)
-* 门罗币
+* [门罗币](XMR/MONERO.md)
   * [什么是门罗币？](XMR/ABOUT.md)
-  
   * [如何生成门罗币钱包？](XMR/Wallet.md)
-  
   * [门罗币(XMR)挖矿教程](XMR/MONERO.md)
      * [Monero(门罗币) CPU 挖矿教程]()  
      * [Monero(门罗币) GPU 挖矿教程]() 
