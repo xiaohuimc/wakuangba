@@ -1,4 +1,3 @@
-如何充币？
 
 1、充值地址打开方式
 
@@ -6,7 +5,7 @@
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.01.jpg)
 
-（2）登录账户 — 访问菜单栏“我的财务”，链接【https://gateio.io/myaccount](https://gateio.io/myaccount)，在资金里面查找到要充值的币种，点击充值按钮。
+（2）登录账户 — 访问菜单栏“我的财务”，链接[https://gateio.io/myaccount](https://gateio.io/myaccount)，在资金里面查找到要充值的币种，点击充值按钮。
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.02.jpg)
 
