@@ -26,7 +26,7 @@ cmake .. -DCMAKE_C_COMPILER = gcc-7 -DCMAKE_CXX_COMPILER = g ++  -  7
 ## 其他CMake选项
 
 - -DUV_LIBRARY=/usr/lib/x86_64-linux-gnu/libuv.a` 使用静态libuv版本。
-- [更多选项](#其他CMake选项)
+- [更多选项](#qi-ta-cmake-xuan-xiang-1)
 
 
 
@@ -37,7 +37,7 @@ chmod +x xmrig
 .\xmrig -o software.xmrpool.me:443 -u 钱包地址 -p x -k
 ```
 
-[更多选项](#选项)
+* [更多选项](#xuan-xiang)
 
 
 ## CentOS 7 编译
