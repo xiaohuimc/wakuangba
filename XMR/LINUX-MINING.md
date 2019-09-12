@@ -127,3 +127,5 @@ chmod +x xmrig
 - `-DWITH_EMBEDDED_CONFIG=ON`启用内部嵌入式JSON配置[＃957](https://github.com/xmrig/xmrig/issues/957#issuecomment-468890667)。
 - `-DBUILD_STATIC=ON`添加链接器标志`-static`。
 
+
+

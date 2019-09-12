@@ -8,9 +8,8 @@
   
   * [门罗币(XMR)挖矿教程]()
   - [Monero(门罗币) CPU 挖矿教程]()  
-     - [Monero(门罗币) GPU 挖矿教程]() 
-     
-  - [Monero(门罗币) Linux 挖矿教程](XMR\LINUX-MINING.md)  
+  - [Monero(门罗币) GPU 挖矿教程]() 
+  - [Monero(门罗币) Linux 挖矿教程](XMR/LINUX-MINING.md)  
      
   * 如何交易门罗币?
      * [如何注册账户?](XMR/REGISTER.md)
