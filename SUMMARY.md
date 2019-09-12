@@ -7,9 +7,7 @@
   * [如何生成门罗币钱包？](XMR/Wallet.md)
   
   * [门罗币(XMR)挖矿教程]()
-     
      * [Monero(门罗币) CPU 挖矿教程]()  
-     
      * [Monero(门罗币) GPU 挖矿教程]() 
      * [Monero(门罗币) Linux 挖矿教程](XMR/LINUX-MINING.md)  
      
