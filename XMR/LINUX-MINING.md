@@ -1,6 +1,6 @@
 ## Ubuntu
 
-#### 1. 编译程序
+### 1. 编译程序
 
 ```shell
 sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev libhwloc-dev
@@ -12,7 +12,7 @@ cmake ..
 make
 ```
 
-### gcc 7.1
+#### gcc 7.1
 
 您可以选择使用gcc 7来提高性能。
 如果`add-apt-repository`找不到命令，请先安装`software-properties-common`。
@@ -23,14 +23,14 @@ make
 cmake .. -DCMAKE_C_COMPILER = gcc-7 -DCMAKE_CXX_COMPILER = g ++  -  7
 ```
 
-## 其他CMake选项
+#### 其他CMake选项
 
 - -DUV_LIBRARY=/usr/lib/x86_64-linux-gnu/libuv.a` 使用静态libuv版本。
 - [更多选项](#qi-ta-cmake-xuan-xiang-1)
 
 
 
-#### 2. 执行程序
+### 2. 执行程序
 
 ```shell
 chmod +x xmrig
@@ -42,7 +42,7 @@ chmod +x xmrig
 
 ## CentOS 7 编译
 
-#### 1. 编译程序
+### 1. 编译程序
 
 ```shell
 sudo yum install -y epel-release
@@ -55,14 +55,14 @@ cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a
 make
 ```
 
-#### 2.运行程序
+### 2.运行程序
 
 ```shell
 chmod +x xmrig
 .\xmrig -o software.xmrpool.me:443 -u 钱包地址 -p x -k
 ```
 
-### 选项
+#### 选项
 
 ```shell
   -a, --algo=ALGO               指定要使用的算法
@@ -113,7 +113,7 @@ chmod +x xmrig
   -V, --version                 输出版本信息并退出
 ```
 
-## 其他CMake选项
+#### 其他CMake选项
 
 - `-DWITH_LIBCPUID=OFF`禁用libcpuid。此后CPU的自动配置将非常有限。
 - `-DWITH_AEON=OFF` 禁用CryptoNight-Lite算法和所有派生变体。
