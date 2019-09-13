@@ -12,5 +12,5 @@
   * 如何交易门罗币?
      * [如何注册账户?](XMR/REGISTER.md)
      * [如何充币?](XMR/RECHARGE.md)
-     * [币币交易操作流程(网页版/手机APP)](XMR/TRANSACTION.md)
+     * [币币交易操作流程(网页版/手机APP)](XMR/TRANSACTION PROCESS.md)
      * [如何提币?](XMR/WITHDRAW.md)
