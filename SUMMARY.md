@@ -9,7 +9,7 @@
      * [Monero(门罗币) GPU 挖矿教程](XMR/GPU-MINING.md) 
      * [Monero(门罗币) Linux 挖矿教程](XMR/LINUX-MINING.md)  
      
-  * 如何交易门罗币?
+  * [如何交易门罗币?](XMR/TRANSACTION.md)
      * [如何注册账户?](XMR/REGISTER.md)
      * [如何充币?](XMR/RECHARGE.md)
      * [币币交易操作流程(网页版/手机APP)](XMR/TRANSACTION PROCESS.md)
