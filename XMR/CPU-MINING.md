@@ -4,7 +4,7 @@ XMRig是一款高性能的RandomX和CryptoNight CPU挖掘工具，支持Windows�
 
 这是CPU版本，还有NVIDIA GPU版和AMD GPU版本。
 
-![xmrig](../XMR/images/0301.png)
+![](../XMR/images/0301.png)
 
 ### 下载
 
