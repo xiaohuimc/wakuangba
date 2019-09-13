@@ -1,4 +1,4 @@
-## Ubuntu
+## Ubuntu CPU
 
 ### 1. 编译程序
 
@@ -40,7 +40,7 @@ chmod +x xmrig
 * [更多选项](#xuan-xiang)
 
 
-## CentOS 7 编译
+## CentOS CPU
 
 ### 1. 编译程序
 
