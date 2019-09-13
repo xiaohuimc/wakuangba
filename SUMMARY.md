@@ -1,13 +1,13 @@
 # Table of contents
 
 * [专注数字货币知识分享](README.md)
-* [门罗币](XMR/MONERO.md)
+* [门罗币(Monero)](XMR/MONERO.md)
   * [什么是门罗币？](XMR/ABOUT.md)
   * [如何生成门罗币钱包？](XMR/Wallet.md)
-  * [门罗币(XMR)挖矿教程](XMR/MINING.md)
-     * [Monero(门罗币) CPU 挖矿教程](XMR/CPU-MINING.md)  
-     * [Monero(门罗币) GPU 挖矿教程](XMR/GPU-MINING.md) 
-     * [Monero(门罗币) Linux 挖矿教程](XMR/LINUX-MINING.md)  
+  * [门罗币(Monero)挖矿教程](XMR/MINING.md)
+     * [门罗币(Monero) CPU 挖矿教程](XMR/CPU-MINING.md)  
+     * [门罗币(Monero) GPU 挖矿教程](XMR/GPU-MINING.md) 
+     * [门罗币(Monero) Linux 挖矿教程](XMR/LINUX-MINING.md)  
      
   * [如何交易门罗币?](XMR/TRANSACTION.md)
      * [如何注册账户?](XMR/REGISTER.md)
