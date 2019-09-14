@@ -75,7 +75,7 @@ refresh 更新钱包              save 保存
 
 ![](../XMR/images/0219.png)
 
-（2）区块同步数据默认存放在C盘
+（2）区块同步数据默认存放在C盘。
 
 monerod.exe –data-dir E:\bitmonero 将以上命令保存为bat批处理文件 里面的E:\bitmonero 为你想同步的目录名称.然后将批处理文件放
 

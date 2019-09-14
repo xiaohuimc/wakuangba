@@ -1,15 +1,15 @@
 
 1、提现操作打开方式
 
-（1）登录账户，在首页，个人信息那里有“提现”
+（1）登录账户，在首页，个人信息那里有“提现”。
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_2.01.jpg)
 
-找到要提现的币种，点击提现
+找到要提现的币种，点击提现。
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_2.02.jpg)
 
-（2）登录账户 — 访问菜单栏“币币交易” — 选择提现币种 — 选择提现 — 点击提现
+（2）登录账户 — 访问菜单栏“币币交易” — 选择提现币种 — 选择提现 — 点击提现。
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_2.03.jpg)
 
