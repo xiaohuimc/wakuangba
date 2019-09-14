@@ -11,7 +11,10 @@ description: 挖矿吧(WaKuangBa.CN)专注数字货币知识分享平台。为�
 * [F2Pool - 挖矿收益计算器](https://www.f2pool.com/calculator?miner_id=84&currency=btc)
 * [巴比特 - 国内最早的区块链（blockchain）资讯社区门户](https://www.8btc.com/)
 
-​                                          ![QQ](https://raw.githubusercontent.com/xiaohuimc/wakuangba/master/images/QQ.png)![WeCat](https://github.com/xiaohuimc/wakuangba/raw/master/images/WeCat.png)
+                                          ![QQ](https://raw.githubusercontent.com/xiaohuimc/wakuangba/master/images/QQ.png)![WeCat](https://github.com/xiaohuimc/wakuangba/raw/master/images/WeCat.png)
 ---
+
+​                                                                                        QQ                                      WeCat
+
 > 如若转载请标明出处
 
