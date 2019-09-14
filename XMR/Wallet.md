@@ -60,7 +60,35 @@
 46krLFjQHDAgYiTXFfksiw7qirqnzkLmLPfyryvA1f9gZCLr64WhJXhcBpurZ9JsyveMhJcYPvuasRgvNoxS2Eq7VWmSz5j
 ```
 
+<<<<<<< HEAD
 ![0217](..\XMR\images\0214.png)
+=======
+转账命令
+
+transfer 0 [Base Addresss] [amount] [Payment_Id]
+
+其他命令
+
+help 帮助                  balance 查看钱包数据
+
+refresh 更新钱包              save 保存
+
+重要提醒：
+
+（1）需要同步完区块才能进行查看实时余额及转账，但不影响挖矿，挖矿可直接使用钱包地址挖。
+
+![](../XMR/images/0219.png)
+
+（2）区块同步数据默认存放在C盘。
+
+monerod.exe –data-dir E:\bitmonero 将以上命令保存为bat批处理文件 里面的E:\bitmonero 为你想同步的目录名称.然后将批处理文件放
+
+在和你钱包文件同一个目录下就行了。这样每次运行批处理文件就会默认同步在你设定的同步目录了。
+
+温馨提示：如果你以前默认同步在C盘下了。最好同步完成在将同步好的整个文件夹复制到你想保存的盘符目录。然后在同步。这样以免更改同步
+
+路径还得重新进行同步。
+>>>>>>> a5cae9a3e828b9068c3e51640fcfe77270019e56
 
 ---
 > 如若转载请标明出处
