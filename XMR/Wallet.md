@@ -2,57 +2,57 @@
 
 钱包下载地址：https://web.getmonero.org/downloads/ （如果下载缓慢请使用下载工具下载）
 
-![0201](..\XMR\images\0201.png)
+![0201](../XMR/images/0201.png)
 
 ***⚠️ 注：系统版本为32位系统请下载对应版本钱包***
 
 #### 二、生成钱包
 
-1. ##### 将压缩包解压并运行 monero-wallet-gui.exe
+##### 1. 将压缩包解压并运行 monero-wallet-gui.exe
 
-![0202](..\XMR\images\0202.png)
+![0202](../XMR/images/0202.png)
 
-2. ##### 选择语言 “简体中文”
+##### 2. 选择语言 “简体中文”
 
-![0203](..\XMR\images\0203.png)
+![0203](../XMR/images/0203.png)
 
-![0204](..\XMR\images\0204.png)
+![0204](../XMR/images/0204.png)
 
-![0205](..\XMR\images\0205.png)
+![0205](../XMR/images/0205.png)
 
-3. ##### 选择“简易模式” 
+##### 3. 选择“简易模式” 
 
-![0206](..\XMR\images\0206.png)
+![0206](../XMR/images/0206.png)
 
 ##### 4.选择Asia (亚洲) 并勾选“我理解使用第三方服务器对隐私的影响。”
 
-![0208](..\XMR\images\0207.png)
+![0208](../XMR/images/0207.png)
 
 ##### 5.选择“创建一下新的钱包”
 
-![0209](..\XMR\images\0208.png)
+![0209](../XMR/images/0208.png)
 
 ##### 6.填写“钱包名称”和选择"钱包位置"，妥善保管好“私钥记助种子”。
 
 ⚠️ 钱包位置默认存放C盘，建议更改其他盘中，以免重装系统导致钱包文件丢失。如果您钱包丢失在将来可使用“私钥助记种子” 恢复您的钱包， “Wallet restore height”  (钱包恢复高度) ，指定此块号码将更快地恢复您的钱包。
 
-![0210](..\XMR\images\0209.png)
+![0210](../XMR/images/0209.png)
 
-![0211](..\XMR\images\0210.png)
+![0211](../XMR/images/0210.png)
 
-7. ##### 打开钱包配置远程节点
+##### 7. 打开钱包配置远程节点
 
-![0212](..\XMR\images\0211.png)
+![0212](../XMR/images/0211.png)
 
  ⚠️ 远程节点地址  node.moneroworld.com  端口 18089
 
-![0215](..\XMR\images\0212.png)
+![0213](../XMR/images/0212.png)
 
 ##### 8.收款与转账
 
 ⚠️ 如您需要转账请将钱包同步完成后操作，钱包未同步完不影响收款，但要您想查看到实时余额请将钱包同步完成，如果他人将门罗币转入到您账户此时钱包已同步完成您查看余额未发生变化，请等待10分钟后查看，转账有一定的延时。
 
-![0216](..\XMR\images\0213.png)
+![0214](../XMR/images/0213.png)
 
 ⚠️ 使用钱包地址收款或挖矿时点击红框的位置复制钱包地址
 
@@ -60,35 +60,7 @@
 46krLFjQHDAgYiTXFfksiw7qirqnzkLmLPfyryvA1f9gZCLr64WhJXhcBpurZ9JsyveMhJcYPvuasRgvNoxS2Eq7VWmSz5j
 ```
 
-<<<<<<< HEAD
-![0217](..\XMR\images\0214.png)
-=======
-转账命令
-
-transfer 0 [Base Addresss] [amount] [Payment_Id]
-
-其他命令
-
-help 帮助                  balance 查看钱包数据
-
-refresh 更新钱包              save 保存
-
-重要提醒：
-
-（1）需要同步完区块才能进行查看实时余额及转账，但不影响挖矿，挖矿可直接使用钱包地址挖。
-
-![](../XMR/images/0219.png)
-
-（2）区块同步数据默认存放在C盘。
-
-monerod.exe –data-dir E:\bitmonero 将以上命令保存为bat批处理文件 里面的E:\bitmonero 为你想同步的目录名称.然后将批处理文件放
-
-在和你钱包文件同一个目录下就行了。这样每次运行批处理文件就会默认同步在你设定的同步目录了。
-
-温馨提示：如果你以前默认同步在C盘下了。最好同步完成在将同步好的整个文件夹复制到你想保存的盘符目录。然后在同步。这样以免更改同步
-
-路径还得重新进行同步。
->>>>>>> a5cae9a3e828b9068c3e51640fcfe77270019e56
+![0215](../XMR/images/0214.png)
 
 ---
 > 如若转载请标明出处
