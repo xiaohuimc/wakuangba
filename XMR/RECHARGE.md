@@ -18,13 +18,13 @@
 
 ##### 3、查询您在gate.io的充值地址，复制充值地址
 
-![](../XMR/images/050201.png)
+![](https://raw.githubusercontent.com/xiaohuimc/wakuangba/master/XMR/images/050201.png)
 
 ##### 4、打开门罗币钱包转账
 
 ***⚠️ 注意：将刚才复制的地址粘贴到地址处，交易优先级选择越高到账速度越快相对应手续费越高。请将钱包同步完成后再点击第二个付款按钮。***
 
-![](../XMR/images/050202.png)
+![](https://raw.githubusercontent.com/xiaohuimc/wakuangba/master/XMR/images/050202.png)
 
 ##### 5、转币完成后，可以在“最近充值记录”上查看
 
