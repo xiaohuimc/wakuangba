@@ -19,25 +19,19 @@
 
 3、查询您在gate.io的充值地址，复制充值地址
 
-![](https://gateimg.opencoding.com/help/jpg/czytb_1.05.jpg)
+![](../XMR/images/050201.png)
 
-4、打开某平台“我的资产”页面，找到相应币种的提现按钮（以平台之间转币为例）
+4、打开门罗币钱包将刚才复制的地址粘贴到地址处，交易优先及选择越高到账速度越快相对应手续费越高。
 
-![](https://gateimg.opencoding.com/help/jpg/czytb_1.06.jpg)
+⚠️ ***请将钱包同步完成后再点击第二个付款按钮***
 
-5、点击提币按钮后，会出现提币画面，点击添加地址
+![](../XMR/images/050202.png)
 
-![](https://gateimg.opencoding.com/help/jpg/czytb_1.07.jpg)
-
-6、把从 gate.io 账户中复制的地址粘贴到某平台的提现地址处，并输入相关信息及提现数量，完成转币过程
-
-![](https://gateimg.opencoding.com/help/jpg/czytb_1.08.jpg)
-
-7、转币完成后，可以在“最近充值记录”上查看
+5、转币完成后，可以在“最近充值记录”上查看
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.09.jpg)
 
-8、根据充值记录上的转账ID在对应的区块记录查询是否发送成功。等待区块确认，发送成功并且确认数足够会自动到账
+6、根据充值记录上的转账ID在对应的区块记录查询是否发送成功。等待区块确认，发送成功并且确认数足够会自动到账
 
 ![](https://gateimg.opencoding.com/help/jpg/czytb_1.10.jpg)
 
