@@ -33,45 +33,45 @@ XMRig 是高性能门罗币（XMR）N卡挖矿工具，支持Windows。
 ### 命令行选项
 
 ```
--a, --algo=ALGO          specify the algorithm to use
+-a, --algo=ALGO          指定要使用的算法
                              cryptonight
                              cryptonight-lite
                              cryptonight-heavy
-  -o, --url=URL             URL of mining server
-  -O, --userpass=U:P        username:password pair for mining server
-  -u, --user=USERNAME       username for mining server
-  -p, --pass=PASSWORD       password for mining server
-      --rig-id=ID           rig identifier for pool-side statistics (needs pool support)
-  -k, --keepalive           send keepalived packet for prevent timeout (needs pool support)
-      --nicehash            enable nicehash.com support
-      --tls                 enable SSL/TLS support (needs pool support)
-      --tls-fingerprint=F   pool TLS certificate fingerprint, if set enable strict certificate pinning
-  -r, --retries=N           number of times to retry before switch to backup server (default: 5)
-  -R, --retry-pause=N       time to pause between retries (default: 5)
-      --cuda-devices=N      list of CUDA devices to use.
-      --cuda-launch=TxB     list of launch config for the CryptoNight kernel
-      --cuda-max-threads=N  limit maximum count of GPU threads in automatic mode
-      --cuda-bfactor=[0-12] run CryptoNight core kernel in smaller pieces
-      --cuda-bsleep=N       insert a delay of N microseconds between kernel launches
-      --cuda-affinity=N     affine GPU threads to a CPU
-      --no-color            disable colored output
-      --variant             algorithm PoW variant
-      --donate-level=N      donate level, default 5% (5 minutes in 100 minutes)
-      --user-agent          set custom user-agent string for pool
-  -B, --background          run the miner in the background
-  -c, --config=FILE         load a JSON-format configuration file
-  -l, --log-file=FILE       log all output to a file
-  -S, --syslog              use system log for output messages
-      --print-time=N        print hashrate report every N seconds
-      --api-port=N          port for the miner API
-      --api-access-token=T  access token for API
-      --api-worker-id=ID    custom worker-id for API
-      --api-id=ID           custom instance ID for API
-      --api-ipv6            enable IPv6 support for API
-      --api-no-restricted   enable full remote access (only if API token set)
-      --dry-run             test configuration and exit
-  -h, --help                display this help and exit
-  -V, --version             output version information and exit
+  -o, --url=URL             矿池地址
+  -O, --userpass=U:P        用户名:密码
+  -u, --user=USERNAME       钱包地址
+  -p, --pass=PASSWORD       密码(默认填写x)
+      --rig-id=ID           矿池统计的标识符（需要矿池支持）
+  -k, --keepalive           发送keepalived数据包以防止超时（需要池支持）
+      --nicehash            启用nicehash.com支持
+      --tls                 启用SSL / TLS支持（需要池支持）
+      --tls-fingerprint=F   池TLS证书指纹，如果设置启用严格证书固定
+  -r, --retries=N           切换到备份服务器之前重试的次数（默认值：5）
+  -R, --retry-pause=N       重试之间暂停的时间（默认值：5）
+      --cuda-devices=N      要使用的CUDA设备列表。
+      --cuda-launch=TxB     CryptoNight内核的启动配置列表
+      --cuda-max-threads=N  限制自动模式下GPU线程的最大计数
+      --cuda-bfactor=[0-12] 以较小的块运行CryptoNight核心内核
+      --cuda-bsleep=N       在内核启动之间插入N微秒的延迟
+      --cuda-affinity=N     将GPU线程绑定到CPU
+      --no-color            禁用彩色输出
+      --variant             算法PoW变体
+      --donate-level=N      捐赠水平，默认5％（100分钟内5分钟）
+      --user-agent          为池设置自定义用户代理字符串
+  -B, --background          在后台运行矿工
+  -c, --config=FILE         加载JSON格式的配置文件
+  -l, --log-file=FILE       将所有输出记录到文件中
+  -S, --syslog              使用系统日志输出消息
+      --print-time=N        每N秒打印一次哈希值报告
+      --api-port=N          矿工API的端口
+      --api-access-token=T  API的访问令牌
+      --api-worker-id=ID    API的自定义worker-id
+      --api-id=ID           API的自定义实例ID
+      --api-ipv6            为API启用IPv6支持
+      --api-no-restricted   启用完全远程访问（仅在设置API令牌时）
+      --dry-run             测试配置并退出
+  -h, --help                显示此帮助并退出
+  -V, --version             输出版本信息并退出
 ```
 
 
@@ -111,47 +111,47 @@ XMRig是高性能的Monero（XMR）OpenCL挖掘机，具有官方完整的Window
 ### 命令行选项
 
 ```
--a, --algo=ALGO              specify the algorithm to use
-                                 cryptonight
-                                 cryptonight-lite
-                                 cryptonight-heavy
-  -o, --url=URL                URL of mining server
-  -O, --userpass=U:P           username:password pair for mining server
-  -u, --user=USERNAME          username for mining server
-  -p, --pass=PASSWORD          password for mining server
-      --rig-id=ID              rig identifier for pool-side statistics (needs pool support)
-  -k, --keepalive              send keepalived for prevent timeout (needs pool support)
-      --nicehash               enable nicehash.com support
-      --tls                    enable SSL/TLS support (needs pool support)
-      --tls-fingerprint=F      pool TLS certificate fingerprint, if set enable strict certificate pinning
-  -r, --retries=N              number of times to retry before switch to backup server (default: 5)
-  -R, --retry-pause=N          time to pause between retries (default: 5)
-      --opencl-devices=N       list of OpenCL devices to use.
-      --opencl-launch=IxW      list of launch config, intensity and worksize
-      --opencl-strided-index=N list of strided_index option values for each thread
-      --opencl-mem-chunk=N     list of mem_chunk option values for each thread
-      --opencl-comp-mode=N     list of comp_mode option values for each thread
-      --opencl-affinity=N      list of affinity GPU threads to a CPU
-      --opencl-platform=N      OpenCL platform index
-      --opencl-loader=N        path to OpenCL-ICD-Loader (OpenCL.dll or libOpenCL.so)
-      --print-platforms        print available OpenCL platforms and exit
-      --no-cache               disable OpenCL cache
-      --no-color               disable colored output
-      --variant                algorithm PoW variant
-      --donate-level=N         donate level, default 5% (5 minutes in 100 minutes)
-      --user-agent             set custom user-agent string for pool
-  -B, --background             run the miner in the background
-  -c, --config=FILE            load a JSON-format configuration file
-  -l, --log-file=FILE          log all output to a file
-  -S, --syslog                 use system log for output messages
-      --print-time=N           print hashrate report every N seconds
-      --api-port=N             port for the miner API
-      --api-access-token=T     access token for API
-      --api-worker-id=ID       custom worker-id for API
-      --api-id=ID              custom instance ID for API
-      --api-ipv6               enable IPv6 support for API
-      --api-no-restricted      enable full remote access (only if API token set)
-      --dry-run                test configuration and exit
-  -h, --help                   display this help and exit
-  -V, --version                output version information and exit
+  -a, --algo=ALGO           指定要使用的算法
+                             cryptonight
+                             cryptonight-lite
+                             cryptonight-heavy
+  -o, --url=URL             矿池地址
+  -O, --userpass=U:P        用户名:密码
+  -u, --user=USERNAME       钱包地址
+  -p, --pass=PASSWORD       密码(默认填写x)
+      --rig-id=ID           矿池统计的标识符（需要矿池支持）
+  -k, --keepalive           发送keepalived数据包以防止超时（需要池支持）
+      --nicehash            启用nicehash.com支持
+      --tls                 启用SSL / TLS支持（需要池支持）
+      --tls-fingerprint=F   池TLS证书指纹，如果设置启用严格证书固定
+  -r, --retries=N           切换到备份服务器之前重试的次数（默认值：5）
+  -R, --retry-pause=N       重试之间暂停的时间（默认值：5）
+      --opencl-devices=N       要使用的OpenCL设备列表。
+      --opencl-launch=IxW      启动配置列表，强度和工作量
+      --opencl-strided-index=N 每个线程的strided_index选项值列表
+      --opencl-mem-chunk=N     每个线程的mem_chunk选项值列表
+      --opencl-comp-mode=N     每个线程的comp_mode选项值列表
+      --opencl-affinity=N      到CPU的亲和GPU线程列表
+      --opencl-platform=N      OpenCL平台索引
+      --opencl-loader=N        OpenCL-ICD-Loader的路径（OpenCL.dll或libOpenCL.so）
+      --print-platforms        打印可用的OpenCL平台并退出
+      --no-cache               禁用OpenCL缓存
+      --no-color               禁用彩色输出
+      --variant                算法PoW变体
+      --donate-level=N         捐赠水平，默认5％（100分钟内5分钟）
+      --user-agent             为池设置自定义用户代理字符串
+  -B, --background          在后台运行矿工
+  -c, --config=FILE         加载JSON格式的配置文件
+  -l, --log-file=FILE       将所有输出记录到文件中
+  -S, --syslog              使用系统日志输出消息
+      --print-time=N        每N秒打印一次哈希值报告
+      --api-port=N          矿工API的端口
+      --api-access-token=T  API的访问令牌
+      --api-worker-id=ID    API的自定义worker-id
+      --api-id=ID           API的自定义实例ID
+      --api-ipv6            为API启用IPv6支持
+      --api-no-restricted   启用完全远程访问（仅在设置API令牌时）
+      --dry-run             测试配置并退出
+  -h, --help                显示此帮助并退出
+  -V, --version             输出版本信息并退出
 ```
