@@ -33,7 +33,7 @@ XMRig 是高性能门罗币（XMR）N卡挖矿工具，支持Windows。
 ### 命令行选项
 
 ```
--a, --algo=ALGO          指定要使用的算法
+  -a, --algo=ALGO           指定要使用的算法
                              cryptonight
                              cryptonight-lite
                              cryptonight-heavy
