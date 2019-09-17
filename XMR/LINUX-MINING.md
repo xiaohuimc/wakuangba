@@ -4,7 +4,7 @@
 
 ```shell
 sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev libhwloc-dev
-git clone https://github.com/xmrig/xmrig.git
+git clone https://gitee.com/wakuangba/xmrig.git
 cd xmrig
 mkdir build
 cd build
@@ -47,7 +47,7 @@ chmod +x xmrig
 ```shell
 sudo yum install -y epel-release
 sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libmicrohttpd-devel libuv-static
-git clone https://github.com/xmrig/xmrig.git
+git clone https://gitee.com/wakuangba/xmrig.git
 cd xmrig
 mkdir build
 cd build
