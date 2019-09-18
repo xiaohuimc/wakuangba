@@ -2,9 +2,7 @@
 
 XMRig 是高性能门罗币（XMR）N卡挖矿工具，支持Windows。
 
-这是NVIDIA GPU挖掘版，还有CPU版和AMD GPU版。
-
-⚠️GPU自动配置的建议值可能不是最佳或不起作用，您可能需要调整线程选项。如果自动配置提示错误值，请随意打开问题。
+这是NVIDIA GPU挖掘版，还有[CPU版](https://www.wakuangba.cn/monero/mining/cpu-mining)和[AMD GPU版](#AMD GPU)。
 
 ![](https://camo.githubusercontent.com/8daca1246fc9a96d5a0fff0c9ccfa16239986832/68747470733a2f2f692e696d6775722e636f6d2f7752435a33494a2e706e67)
 
@@ -28,7 +26,19 @@ XMRig 是高性能门罗币（XMR）N卡挖矿工具，支持Windows。
 
 ## 用法
 
-使用[config.xmrig.com](https://config.xmrig.com/nvidia)生成，编辑或共享配置。
+ (1)、将下载的文件后解压右键编辑Start.bat,修改矿池地址和钱地址保存双击运行Start.bat 即可。也可使用 [config.xmrig.com](https://config.xmrig.com/nvidia) 生成配置文件或共享配置。
+
+示例：
+
+``````
+xmrig.exe -a cn/r -o pool.supportxmr.com:5555 -u 46krLFjQHDAgYiTXFfksiw7qirqnzkLmLPfyryvA1f9gZCLr64WhJXhcBpurZ9JsyveMhJcYPvuasRgvNoxS2Eq7VWmSz5j -p x -k
+``````
+
+![](../XMR/images/02030201.png)
+
+
+
+⚠️ GPU自动配置可能不是最佳或不起作用，您可能需要调整线程。
 
 ### 命令行选项
 
@@ -80,9 +90,7 @@ XMRig 是高性能门罗币（XMR）N卡挖矿工具，支持Windows。
 
 XMRig是高性能的Monero（XMR）OpenCL挖掘机，具有官方完整的Windows支持。
 
-- 这是AMD（OpenCL）GPU挖掘版，还有一个[CPU版](https://github.com/xmrig/xmrig)和[NVIDIA GPU版](https://github.com/xmrig/xmrig-nvidia)。
-
-⚠️GPU自动配置的建议值可能不是最佳或不起作用，您可能需要调整线程选项。
+- 这是AMD（OpenCL）GPU挖掘版，还有一个[CPU版](https://www.wakuangba.cn/monero/mining/cpu-mining)和[NVIDIA GPU版](#NVIDIA GPU)。
 
 ![](https://camo.githubusercontent.com/9f9a8b36efa7e8bb8252809aca5a70e63ab61a07/68747470733a2f2f786d7269672e636f6d2f6173736574732f696d672f73637265656e73686f74732f786d7269672d616d642d322e382e362e706e67)
 
@@ -106,7 +114,15 @@ XMRig是高性能的Monero（XMR）OpenCL挖掘机，具有官方完整的Window
 
 ## 用法
 
-使用[config.xmrig.com](https://config.xmrig.com/amd)生成，编辑或共享配置。
+ (1)、将下载的文件后解压右键编辑Start.bat,修改矿池地址和钱地址保存双击运行Start.bat 即可。也可使用 [config.xmrig.com](https://config.xmrig.com/nvidia) 生成配置文件或共享配置。
+
+``````
+xmrig.exe -a cn/r -o pool.supportxmr.com:5555 -u 46krLFjQHDAgYiTXFfksiw7qirqnzkLmLPfyryvA1f9gZCLr64WhJXhcBpurZ9JsyveMhJcYPvuasRgvNoxS2Eq7VWmSz5j -p x -k
+``````
+
+![](../XMR/images/02030202.png)
+
+⚠️GPU自动配置的建议值可能不是最佳或不起作用，您可能需要调整线程选项。
 
 ### 命令行选项
 
@@ -155,3 +171,9 @@ XMRig是高性能的Monero（XMR）OpenCL挖掘机，具有官方完整的Window
   -h, --help                显示此帮助并退出
   -V, --version             输出版本信息并退出
 ```
+
+### 查看收益
+
+下面以 www.SupportXMR.com 矿池为例查看收益，SupportXMR 默认/最低支付0.1 XMR，可自行修改支付额度，软件中添加的矿池地址非 www.SupportXMR.com 网页端的，软件所修改的矿池例pool.supportxmr.com:5555，[更多端口点击此处](https://www.supportxmr.com/#/help/getting_started)  。
+
+![](E:/Development/GitHub/wakuangba/XMR/images/0303.png)

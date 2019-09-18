@@ -2,7 +2,7 @@
 
 XMRig是一款高性能的RandomX和CryptoNight CPU挖掘工具，支持Windows。
 
-这是CPU版本，还有NVIDIA GPU版和AMD GPU版本。
+这是CPU版本，还有[NVIDIA GPU版](https://www.wakuangba.cn/monero/mining/gpu-mining#nvidia-gpu)和[AMD GPU版本](https://www.wakuangba.cn/monero/mining/gpu-mining#amd-gpu)。
 
 ![](../XMR/images/0301.png)
 
@@ -14,13 +14,13 @@ XMRig是一款高性能的RandomX和CryptoNight CPU挖掘工具，支持Windows�
 
 将下载的文件后解压右键编辑Start.bat,修改矿池地址和钱地址保存双击运行Start.bat 即可。
 
+示例：
+
 ```shell
-xmrig.exe -o 矿池地址 -u 钱包地址 -p x -k
+xmrig.exe -a cn/r -o pool.supportxmr.com:5555 -u 46krLFjQHDAgYiTXFfksiw7qirqnzkLmLPfyryvA1f9gZCLr64WhJXhcBpurZ9JsyveMhJcYPvuasRgvNoxS2Eq7VWmSz5j -p x -k
 ```
 
 ![](../XMR/images/0302.png)
-
-
 
 ### 选项
 
