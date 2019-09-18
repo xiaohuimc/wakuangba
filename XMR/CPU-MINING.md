@@ -8,7 +8,7 @@ XMRig是一款高性能的RandomX和CryptoNight CPU挖掘工具，支持Windows�
 
 ### 下载
 
- * Windows 版: https://github.com/xmrig/xmrig/releases
+ * Windows 版: [点击下载](https://github.com/xiaohuimc/wakuangba/releases/download/18/XMRig.zip)
 
 ### 用法
 
