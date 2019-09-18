@@ -18,7 +18,7 @@ XMRig是一款高性能的RandomX和CryptoNight CPU挖掘工具，支持Windows�
 xmrig.exe -o 矿池地址 -u 钱包地址 -p x -k
 ```
 
-![](E:\Development\GitHub\wakuangba\XMR\images\0302.png)
+![](../XMR/images/0302.png)
 
 
 
