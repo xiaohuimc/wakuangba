@@ -12,9 +12,15 @@ XMRig是一款高性能的RandomX和CryptoNight CPU挖掘工具，支持Windows�
 
 ### 用法
 
+将下载的文件后解压右键编辑Start.bat,修改矿池地址和钱地址保存双击运行Start.bat 即可。
+
 ```shell
-xmrig.exe -o software.xmrpool.me:443 -u 钱包地址 -p x -k
+xmrig.exe -o 矿池地址 -u 钱包地址 -p x -k
 ```
+
+![](E:\Development\GitHub\wakuangba\XMR\images\0302.png)
+
+
 
 ### 选项
 
@@ -66,3 +72,9 @@ xmrig.exe -o software.xmrpool.me:443 -u 钱包地址 -p x -k
   -h, --help                    显示此帮助并退出
   -V, --version                 输出版本信息并退出
 ```
+
+### 查看收益
+
+下面以 www.SupportXMR.com 矿池为例查看收益，SupportXMR 默认/最低支付0.1 XMR，可自行修改支付额度，软件中添加的矿池地址非 www.SupportXMR.com 网页端的，软件所修改的矿池例 ：`pool.supportxmr.com:5555`，查看更多端口访问 https://www.supportxmr.com/#/help/getting_started 。
+
+![](../XMR/images/0303.png)
