@@ -12,9 +12,7 @@ description: 挖矿吧(WaKuangBa.CN)专注数字货币知识分享平台。为�
 * [巴比特 - 国内最早的区块链（blockchain）资讯社区门户](https://www.8btc.com/)
 ---
 
-​                                                              ![QQ](https://raw.githubusercontent.com/xiaohuimc/wakuangba/master/images/QQ.png)![WeCat](https://github.com/xiaohuimc/wakuangba/raw/master/images/WeCat.png)
 
-​                                                                              QQ                                     WeCat
 
 > 如若转载请标明出处
 
